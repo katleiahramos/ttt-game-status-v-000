@@ -32,6 +32,6 @@ def won?(board)
 end
 
 def full(board)
-  board.none?{|i| i == "" || i == " " }
+  if board.none?{|i| i == "" || i == " " }
 
 end
