@@ -28,8 +28,8 @@ def won?(board)
         return win_combination
       #elsif board == [" ", " ", " ", " ", " ", " ", " ", " ", " "]
           #return false
-      else
-          return false
+      #else
+          #return false
         end
     end
 end
