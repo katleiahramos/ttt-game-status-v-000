@@ -33,5 +33,7 @@ end
 
 def full(board)
   if board.none?{|i| i == "" || i == " " }
-
+    return true
+  else
+    return false
 end
