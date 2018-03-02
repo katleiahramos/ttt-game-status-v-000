@@ -32,7 +32,7 @@ def won?(board)
 end
 
 def full(board)
-  if board.none?{|i| i == "" || i == " " }
+  if board.include?(" ")
     return true
   else
     return false
