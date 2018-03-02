@@ -33,8 +33,8 @@ end
 
 def full(board)
   if board.include?(" ")
-    return true
-  else
     return false
-  end 
+  else
+    return true
+  end
 end
